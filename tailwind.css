@@ -569,12 +569,12 @@ video {
   display: none;
 }
 
-.flex-row {
-  flex-direction: row;
+.flex-col {
+  flex-direction: column;
 }
 
-.items-end {
-  align-items: flex-end;
+.items-start {
+  align-items: flex-start;
 }
 
 .justify-between {
@@ -796,8 +796,20 @@ aside > p, h3 {
 }
 
 @media (min-width: 640px) {
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:items-end {
+    align-items: flex-end;
+  }
+
   .sm\:p-0 {
     padding: 0px;
+  }
+
+  .sm\:p-3 {
+    padding: 0.75rem;
   }
 }
 
