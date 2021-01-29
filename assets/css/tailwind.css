@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 
-.work-tile > a, video {
+.work-tile > a, img {
     -webkit-transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
     -ms-transition: opacity 0.2s ease-in-out;
@@ -25,10 +25,6 @@
 }
 
 .work-tile > a, img:hover {
-    opacity: 50%;
-}
-
-.work-tile > a, video:hover {
     opacity: 50%;
 }
 
@@ -54,16 +50,6 @@ aside > p, h3 {
     object-fit: fill;
     object-position: top;
     width: 100%;
-}
-
-video.work-img {
-    filter:opacity(80%);
-}
-
-@media screen and (min-width: 1024px) {
-    .work-img  { 
-        height: 90%;
-    }
 }
 
 .work-img  { 
