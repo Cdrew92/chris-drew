@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="bg-black">
+<html>
 <head>
   <!-- ... -->
   <meta charset="UTF-8" />
@@ -8,34 +8,53 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bg-softblack">
     <div class="mx-auto bg-white">
-        <div class="container mx-auto p-3">
-            <h1 class="h-32 text-5xl font-extrabold">Chris Drew <span class="hidden md:inline-block font-thin">|</span><span class="inline-block -m-3 md:hidden">,</span><br class="md:hidden"> Web Developer</h1>
+        <div class="container mx-auto p-3 sm:p-0 flex flex-row items-end md:items-center justify-between">
+            <h1 class="text-5xl font-light align-middle"><span class="align-middle md:mr-4">Chris Drew</span><span class="hidden md:inline-block font-thin">|</span><span class="inline-block md:hidden">,</span><br class="md:hidden"><span class="text-gray-400 md:ml-4 align-middle">Web Developer</span></h1>
+            <span class="p-3"><a href="https://www.github.com/CDrew92"><img src="./assets/img/GitHub-Mark-32px.png"></a></span>
         </div>
     </div>
     <section class="p-3">
         <div class="container mx-auto">
-            <h2 class="text-5xl font-extrabold text-white text-center pt-12">Work</h2>
+            <h2 class="text-5xl font-light text-gray-400 text-center pt-12">Work</h2>
         </div>
         <div class="container mx-auto my-12">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                <div class="work-tile">
-                    <a class="" href="christcommunity.net"><img src="./assets/img/cccweb.jpg"></a>
+            <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-12">
+                <div class="work-tile flex-1">
+                    <img class="work-img" src="./assets/img/cccweb.jpg">
                     <aside>
-                        <p class="text-14 mt-2 text-center text-gray-400">Christ Community</p>
-                        <h3 class="text-xl text-white text-center">Front-End Development - Implementation</h3>
+                        <p class="text-xs uppercase mt-2 text-center text-gray-400">Christ Community</p>
+                        <h3 class="text-sm text-white text-center">Front-End Development - Implementation</h3>
                     </aside>
                 </div>
-                <div class="work-tile">
-                    <img src="./assets/img/todo.jpg">
+                <div class="work-tile flex-1">
+                    <img class="work-img" src="./assets/img/cadenza.jpg">
                     <aside>
-                        <p class="mt-2 text-center text-gray-400">Todo App</p>
-                        <h3 class="text-xl text-white text-center">React SPA - Front-End Development - Implementation</h3>
+                        <p class="text-xs uppercase mt-2 text-center text-gray-400">Cadenza Health | Homepage</p>
+                        <h3 class="text-sm text-white text-center">Front-End Development</h3>
                     </aside>
                 </div>
-                <div class="work-tile">
-                    <img src="./assets/img/cccweb.jpg">
+                <div class="work-tile flex-1">
+                    <img class="work-img" src="./assets/img/medhelp-appt.jpg">
+                    <aside>
+                        <p class="text-xs uppercase mt-2 text-center text-gray-400">MedHelp | Appointments</p>
+                        <h3 class="text-sm text-white text-center">Front-End Development - Appointments Feature</h3>
+                    </aside>
+                </div>
+                <div class="work-tile flex-1">
+                    <img class="work-img" src="./assets/img/shades.jpg">
+                    <aside>
+                        <p class="text-xs uppercase mt-2 text-center text-gray-400">Shades | Homepage</p>
+                        <h3 class="text-sm text-white text-center">Countdown Logic - Twig</h3>
+                    </aside>
+                </div>
+                <div class="work-tile flex-1">
+                    <img class="work-img" src="./assets/img/mbbc.jpg">
+                    <aside>
+                        <p class="text-xs uppercase mt-2 text-center text-gray-400">MBBC | Project 119</p>
+                        <h3 class="text-sm text-white text-center">RSS Feed - Twig</h3>
+                    </aside>
                 </div>
             </div>
         </div>
