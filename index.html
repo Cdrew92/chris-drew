@@ -1,7 +1,16 @@
 <!doctype html>
 <html>
 <head>
-  <!-- ... -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188449115-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-188449115-1');
+    </script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="/tailwind.css" rel="stylesheet">
@@ -23,7 +32,7 @@
     <div class="mx-auto bg-white">
         <div class="container mx-auto p-3 sm:p-0 flex flex-row items-end md:items-center justify-between">
             <h1 class="text-5xl font-light align-middle"><span class="align-middle md:mr-4">Chris Drew</span><span class="hidden md:inline-block font-thin">|</span><span class="inline-block md:hidden">,</span><br class="md:hidden"><span class="text-gray-400 md:ml-4 align-middle">Web Developer</span></h1>
-            <span class="p-3"><a href="https://www.github.com/CDrew92"><img src="./assets/img/GitHub-Mark-32px.png"></a></span>
+            <span class="p-3"><a data-context="GitHub Account" href="https://www.github.com/CDrew92" target="_blank"><img src="./assets/img/GitHub-Mark-32px.png"></a></span>
         </div>
     </div>
     <section class="p-3">
@@ -33,35 +42,35 @@
         <div class="container mx-auto my-12">
             <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-12">
                 <div class="work-tile flex-1">
-                    <img class="work-img" src="./assets/img/cccweb.jpg">
+                    <a data-context="CCC Bham Project" href="https://christcommunity.net" target="_blank"><img class="work-img" src="./assets/img/cccweb.jpg"></a>
                     <aside>
                         <p class="text-xs uppercase mt-2 text-center text-gray-400">Christ Community</p>
                         <h3 class="text-sm text-white text-center">Front-End Development - Implementation</h3>
                     </aside>
                 </div>
                 <div class="work-tile flex-1">
-                    <img class="work-img" src="./assets/img/cadenza.jpg">
+                    <a data-context="Cadenza Health Project" href="https://cadenzahealth.com" target="_blank"><img class="work-img" src="./assets/img/cadenza.jpg"></a>
                     <aside>
                         <p class="text-xs uppercase mt-2 text-center text-gray-400">Cadenza Health | Homepage</p>
                         <h3 class="text-sm text-white text-center">Front-End Development</h3>
                     </aside>
                 </div>
                 <div class="work-tile flex-1">
-                    <img class="work-img" src="./assets/img/medhelp-appt.jpg">
+                    <a data-context="MedHelp Project" href="https://medhelpclinics.com" target="_blank"><img class="work-img" src="./assets/img/medhelp-appt.jpg"></a>
                     <aside>
                         <p class="text-xs uppercase mt-2 text-center text-gray-400">MedHelp | Appointments</p>
                         <h3 class="text-sm text-white text-center">Front-End Development - Appointments Feature</h3>
                     </aside>
                 </div>
                 <div class="work-tile flex-1">
-                    <img class="work-img" src="./assets/img/shades.jpg">
+                    <a data-context="Shades Project" href="https://shades.org" target="_blank"><img class="work-img" src="./assets/img/shades.jpg"></a>
                     <aside>
                         <p class="text-xs uppercase mt-2 text-center text-gray-400">Shades | Homepage</p>
                         <h3 class="text-sm text-white text-center">Countdown Logic - Twig</h3>
                     </aside>
                 </div>
                 <div class="work-tile flex-1">
-                    <img class="work-img" src="./assets/img/mbbc.jpg">
+                    <a data-context="MBBC Project" href="https://mbbc.org" target="_blank"> <img class="work-img" src="./assets/img/mbbc.jpg"></a>
                     <aside>
                         <p class="text-xs uppercase mt-2 text-center text-gray-400">MBBC | Project 119</p>
                         <h3 class="text-sm text-white text-center">RSS Feed - Twig</h3>
