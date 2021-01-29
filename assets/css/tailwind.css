@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.work-tile > a, img {
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    opacity: .8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.work-tile > a, video {
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    opacity: .8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.work-tile > a, img:hover {
+    opacity: 50%;
+}
+
+.work-tile > a, video:hover {
+    opacity: 50%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+p, li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+aside > p, h3 {
+        cursor: default;
+    }
+
+.work-img {
+    object-fit: fill;
+    object-position: top;
+    width: 100%;
+}
+
+video.work-img {
+    filter:opacity(80%);
+}
+
+@media screen and (min-width: 1024px) {
+    .work-img  { 
+        height: 90%;
+    }
+}
+
+.work-img  { 
+    height: 90%;
+}
+
+.gray {
+    color: #484848;
+}
+
+.bg-softblack {
+    background-color: #1a1a1a;
+}
