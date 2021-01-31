@@ -7,13 +7,17 @@ Category: Displays value of #skills-grid on page load
 A-Z: sorts array values and outputs in alphabatized order
 */
 window.onload = function(){
-    const skillsGridValueOnLoad = document.getElementById('skills-grid').innerHTML;
+    let skillsGrid = document.getElementById('skills-grid');
+    const skillsGridValueOnLoad = skillsGrid.innerHTML;
+    let aToZ = document.getElementById('aToZ');
+    let category = document.getElementById('category');
+    category.classList.add('active');
 
     let skillItems = document.querySelectorAll('.exp-item') //get all exp items from document
     let skills = []; 
     skillItems.forEach(item => { //loop through exp items and push to skills array
         skills.push(item.innerHTML)
-        console.log(skills)
+        skills.sort();
     });
 
     let newSkillsArr = new Array();
@@ -23,27 +27,31 @@ window.onload = function(){
         newSkillsArr.push(skills.slice(i,i+5));
     }
 
-    document.getElementById('aToZ').addEventListener('click', function(e) {
+    aToZ.addEventListener('click', function(e) {
         if(e.target && e.target.nodeName == 'A') {
         console.log('List item ', e.target.textContent, ' was clicked!');  // "List item Item 2 was clicked!"
         }
         if (e.currentTarget == document.getElementById('aToZ')) {
-            document.getElementById('skills-grid').innerText = '';
+            aToZ.classList.toggle('active');
+            category.classList.toggle('active');
+            skillsGrid.innerText = '';
             newSkillsArr.sort();
             for (let i = 0; i < newSkillsArr.length; i++) {
                 for (let j = 0; j < newSkillsArr[i].length; j++) {
-                    document.getElementById('skills-grid').innerHTML += `<p>${newSkillsArr[i][j]}</p>`;
+                    skillsGrid.innerHTML += `<p>${newSkillsArr[i][j]}</p>`;
                 }
             }
         }
     });
 
-    document.getElementById('category').addEventListener('click', function(e) {
+    category.addEventListener('click', function(e) {
         if(e.target && e.target.nodeName == 'A') {
         console.log('List item ', e.target.textContent, ' was clicked!');  // "List item Item 2 was clicked!"
         }
-        if (e.currentTarget == document.getElementById('category')) {
-            document.getElementById('skills-grid').innerHTML = skillsGridValueOnLoad;
+        if (e.currentTarget == category) {
+            category.classList.toggle('active');
+            aToZ.classList.toggle('active');
+            skillsGrid.innerHTML = skillsGridValueOnLoad;
         }
     });
 }
