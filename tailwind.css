@@ -608,9 +608,9 @@ video {
   line-height: 1.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .my-1 {
@@ -753,6 +753,11 @@ video {
   }
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .work-tile > a, img {
   transition: opacity 0.2s ease-in-out;
   opacity: .8;
@@ -795,7 +800,7 @@ button {
   border: 2px solid #9ca3af;
 }
 
-button:focus {
+button.active {
   background-color: #fff;
   color: #1a1a1a;
 }
@@ -836,6 +841,11 @@ aside > p, h3 {
 
   .sm\:items-end {
     align-items: flex-end;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .sm\:p-0 {
