@@ -32,7 +32,11 @@ window.onload = function(){
         console.log('List item ', e.target.textContent, ' was clicked!');  // "List item Item 2 was clicked!"
         }
         if (e.currentTarget == document.getElementById('aToZ')) {
-            aToZ.classList.toggle('active');
+            if (aToZ.classList.contains('active')) {
+                return;
+            } else {
+                aToZ.classList.toggle('active');
+            }
             category.classList.toggle('active');
             skillsGrid.innerText = '';
             newSkillsArr.sort();
@@ -49,7 +53,11 @@ window.onload = function(){
         console.log('List item ', e.target.textContent, ' was clicked!');  // "List item Item 2 was clicked!"
         }
         if (e.currentTarget == category) {
-            category.classList.toggle('active');
+            if (category.classList.contains('active')) {
+                return;
+            } else {
+                category.classList.toggle('active');
+            }
             aToZ.classList.toggle('active');
             skillsGrid.innerHTML = skillsGridValueOnLoad;
         }
