@@ -8,6 +8,21 @@
     }
 } */
 
+.mppw-login > a {
+    letter-spacing: 1px;
+    line-height: 60px;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0 20px;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
 .mppw-login #userImage {
     display: none;
 }
