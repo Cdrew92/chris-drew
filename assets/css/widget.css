@@ -1,0 +1,13 @@
+/* .mppw-login {
+
+    a {
+        
+        #userImage {
+            display: none;
+        }
+    }
+} */
+
+.mppw-login #userImage {
+    display: none;
+}
