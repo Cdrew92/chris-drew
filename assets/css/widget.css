@@ -10,7 +10,7 @@
 
 .mppw-login > a {
     letter-spacing: 1px;
-    line-height: 60px;
+    line-height: 60px !important;
     color: #fff;
     display: inline-block;
     font-family: "lato", sans-serif;
@@ -37,6 +37,14 @@
 }
 
 .mppw-login--username.active {
+    display: block !important;
+}
+
+#widget-container {
+    display: none;
+}
+
+#widget-container.active {
     display: block !important;
 }
 
