@@ -75,6 +75,16 @@
     border-radius: 0 !important;
 }
 
+.login-label {
+    text-decoration: none !important;
+    text-transform: none !important;
+    cursor: default !important;
+}
+
+.login-label:hover {
+    color: #9b9b9b !important;
+}
+
 #securedMenuItems {
     padding: 30px;
 }
