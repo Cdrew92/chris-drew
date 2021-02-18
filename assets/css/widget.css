@@ -27,10 +27,6 @@
     line-height: inherit;
 }
 
-#widget-container {
-    display: none;
-}
-
 .mppw-login #userImage {
     display: none;
 }
@@ -38,10 +34,6 @@
 .mppw-login--username {
     display: none;
     font-family: "lato", sans-serif;
-}
-
-#widget-container.active {
-    display: block !important;
 }
 
 .mppw-login--username.active {
