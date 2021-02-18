@@ -36,6 +36,7 @@
 }
 
 .mppw-login--username {
+    display: none;
     font-family: "lato", sans-serif;
 }
 
