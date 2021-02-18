@@ -10,7 +10,7 @@
 
 .mppw-login > a {
     letter-spacing: 1px;
-    line-height: 60px;
+    line-height: 60px !important;
     color: #fff;
     display: inline-block;
     font-size: 13px;
@@ -28,4 +28,14 @@
 
 .mppw-login #userImage {
     display: none;
+}
+
+.mppw-login--username::after {
+    display: none;
+}
+
+.mppw-login .mppw-login--list {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
 }
