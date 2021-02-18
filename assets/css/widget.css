@@ -43,6 +43,10 @@
     display: block !important;
 }
 
+.mppw-login--username.active {
+    display: block !important;
+}
+
 .mppw-login--container:active {
     color: #fff !important;
 }
