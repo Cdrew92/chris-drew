@@ -56,11 +56,15 @@
     display: none !important;
 }
 
+.mppw-icon-unlock {
+    display: none;
+}
+
 .mppw-login--container:hover, .mppw-login--container:focus {
     color: #fff;
 }
 
-.mppw-component-container .mppw-loggedout--username .mppw-icon-unlock .mppw-loggedout--label {
+.mppw-loggedout--label {
     font-family: "lato", sans-serif;
 } 
 .mppw-login .mppw-login--list {
