@@ -103,7 +103,9 @@
 }
 
 .mppw-login--list-item a:hover {
+    background: none !important;
     color: #caac36;
+    text-decoration: none;
 }
 
 .mppw-login--list:nth-child(1) {
