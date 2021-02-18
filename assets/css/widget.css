@@ -30,8 +30,20 @@
     display: none;
 }
 
+.mppw-login--username {
+    font-family: "lato", sans-serif;
+}
+
+.mppw-login--container:active {
+    color: #fff !important;
+}
+
 .mppw-login--container::after {
     display: none !important;
+}
+
+.mppw-login--container:hover, .mppw-login--container:focus {
+    color: #fff;
 }
 
 .mppw-component-container .mppw-loggedout--username .mppw-icon-unlock .mppw-loggedout--label {
@@ -58,6 +70,22 @@
 .mppw-login--list-item a:hover {
     color: #caac36;
     background-color: rgba(245, 245, 245, 0.9);
+}
+
+.mppw-login--list:nth-child(1) {
+    order: 4;
+}
+
+.mppw-login--list:nth-child(2) {
+    order: 2;
+}
+
+.mppw-login--list:nth-child(3) {
+    order: 1;
+}
+
+.mppw-login--list:nth-child(4) {
+    order: 3;
 }
 
 .mppw-loggedout--username:hover, .mppw-loggedout--username:focus {
