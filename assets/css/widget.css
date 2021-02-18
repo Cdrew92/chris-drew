@@ -32,8 +32,11 @@
 }
 
 .mppw-login--username {
-    display: none;
     font-family: "lato", sans-serif;
+}
+
+.mppw-login--username.active {
+    display: block !important;
 }
 
 .mppw-login--container:active {
