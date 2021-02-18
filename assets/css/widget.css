@@ -36,10 +36,6 @@
     font-family: "lato", sans-serif;
 }
 
-.mppw-login--username.active {
-    display: block;
-}
-
 .mppw-login--container:active {
     color: #fff !important;
 }
