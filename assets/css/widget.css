@@ -158,7 +158,7 @@
     text-transform: uppercase;
 }
 
-#loginButton {
+.mppw-btn.primary {
     border: solid 1px #caac36;
     color: #434343;
     line-height: 2;
@@ -179,7 +179,7 @@
     text-decoration: none;
 }
 
-#loginButton:hover, #loginButton:active {
+.mppw-btn.primary:hover, .mppw-btn.primary:active {
     color: #ffffff;
     cursor: pointer;
     background: #caac36;
