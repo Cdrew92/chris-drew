@@ -228,6 +228,8 @@
 
 .mpp-card--description {
     color: #8B8B8B;
+    display: block !important;
+    max-height: none;
     font-size: 16px;
     line-height: 24px;
 }
