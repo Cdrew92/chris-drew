@@ -201,6 +201,10 @@
     grid-template-columns: repeat(3, 340px) !important;
 }
 
+.mpp-card--body {
+    padding: 30px 30px 14px 30px;
+}
+
 .mpp-card--title {
     font-size: 25px !important;
     font-family: "lato", sans-serif !important;
@@ -208,7 +212,7 @@
     display: block !important;
     max-height: none !important;
     color: #000;
-    padding: 14px 14px 14px 14px;
+    padding-bottom: 14px;
 }
 
 .mpp-card--subtitle {
@@ -218,7 +222,7 @@
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 1px;
-    margin-bottom: 14px;
+    padding-bottom: 14px;
     text-transform: uppercase;
 }
 
