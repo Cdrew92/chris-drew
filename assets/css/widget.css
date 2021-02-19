@@ -160,6 +160,10 @@
 
 .mppw-btn {
     border: solid 1px #caac36 !important;
+    border-top-color: #caac36 !important;
+    border-right-color: #caac36 !important;
+    border-bottom-color: #caac36 !important;
+    border-left-color: #caac36 !important;
     color: #434343 !important;
     line-height: 2 !important;
     background: transparent !important;
@@ -185,4 +189,8 @@
     background: #caac36 !important;
     border: solid 1px #caac36 !important;
     border-color: #caac36 !important;
+    border-top-color: #caac36 !important;
+    border-right-color: #caac36 !important;
+    border-bottom-color: #caac36 !important;
+    border-left-color: #caac36 !important;
 }
