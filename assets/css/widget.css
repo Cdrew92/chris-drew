@@ -201,7 +201,7 @@
     grid-template-columns: repeat(3, 340px) !important;
 }
 
-.mppw-card-title {
+.mpp-card--title {
     font-size: 25px !important;
     font-family: "lato", sans-serif !important;
     line-height: 30px;
@@ -211,7 +211,7 @@
     padding: 14px 14px 14px 14px;
 }
 
-.mppw-card--subtitle {
+.mpp-card--subtitle {
     color: #2B2B2B;
     font-family: "lato", sans-serif !important;
     font-size: 14px;
