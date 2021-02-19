@@ -159,30 +159,30 @@
 }
 
 .mppw-btn {
-    border: solid 1px #caac36;
-    color: #434343;
-    line-height: 2;
-    background: transparent;
-    border: solid 1px #d2d2d2;
-    border-radius: 30px;
-    color: #434343;
-    display: inline-block;
-    font-family: "lato", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 1.6;
-    padding: 3px 30px 5px;
-    -webkit-transition: ease 0.15s all;
-    -o-transition: ease 0.15s all;
-    transition: ease 0.15s all;
-    text-decoration: none;
+    border: solid 1px #caac36 !important;
+    color: #434343 !important;
+    line-height: 2 !important;
+    background: transparent !important;
+    border: solid 1px #d2d2d2 !important;
+    border-radius: 30px !important;
+    color: #434343 !important;
+    display: inline-block !important;
+    font-family: "lato", sans-serif !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    line-height: 1.6 !important;
+    padding: 3px 30px 5px !important;
+    -webkit-transition: ease 0.15s all !important;
+    -o-transition: ease 0.15s all !important;
+    transition: ease 0.15s all !important;
+    text-decoration: none !important;
 }
 
 .mppw-btn:hover, .mppw-btn:active {
-    color: #ffffff;
-    cursor: pointer;
-    background: #caac36;
-    border: solid 1px #caac36;
-    border-color: #caac36;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    background: #caac36 !important;
+    border: solid 1px #caac36 !important;
+    border-color: #caac36 !important;
 }
