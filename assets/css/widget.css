@@ -158,7 +158,7 @@
     text-transform: uppercase;
 }
 
-.mppw-btn.primary {
+.mppw-btn {
     border: solid 1px #caac36;
     color: #434343;
     line-height: 2;
@@ -179,7 +179,7 @@
     text-decoration: none;
 }
 
-.mppw-btn.primary:hover, .mppw-btn.primary:active {
+.mppw-btn:hover, .mppw-btn:active {
     color: #ffffff;
     cursor: pointer;
     background: #caac36;
