@@ -1,13 +1,4 @@
-/* .mppw-login {
-
-    a {
-        
-        #userImage {
-            display: none;
-        }
-    }
-} */
-
+/* Login styling */
 .mppw-login > a {
     letter-spacing: 1px;
     line-height: 60px !important;
@@ -34,10 +25,6 @@
 .mppw-login--username {
     display: none;
     font-family: "lato", sans-serif;
-}
-
-.opaque .mppw-login--username {
-    color: #434343;
 }
 
 .mppw-login--username.active {
@@ -108,7 +95,7 @@
 .mppw-login--list-item a {
     display: block;
     color: #9b9b9b;
-    font-family: "lato", sans-serif;;
+    font-family: "lato", sans-serif;
     font-size: 13px;
     font-weight: 700;
     padding: 0;
@@ -141,4 +128,61 @@
 
 .mppw-loggedout--username:hover, .mppw-loggedout--username:focus {
     color: #fff;
+}
+
+/* Widget Logged Out Styling */
+
+#loginButtonContainer #myGroupsNotLoggedIn {
+    background-color: #caac36;
+    border: none;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.mppw-alert__icon {
+    display: none;
+}
+
+.mppw-alert__text {
+    color: #fff;
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: none;
+    padding-left: none;
+    text-transform: uppercase;
+}
+
+#loginButton {
+    border: solid 1px #caac36;
+    color: #434343;
+    line-height: 2;
+    background: transparent;
+    border: solid 1px #d2d2d2;
+    border-radius: 30px;
+    color: #434343;
+    display: inline-block;
+    font-family: "lato", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 3px 30px 5px;
+    -webkit-transition: ease 0.15s all;
+    -o-transition: ease 0.15s all;
+    transition: ease 0.15s all;
+    text-decoration: none;
+}
+
+#loginButton:hover, #loginButton:active {
+    color: #ffffff;
+    cursor: pointer;
+    background: #caac36;
+    border: solid 1px #caac36;
+    border-color: #caac36;
 }
