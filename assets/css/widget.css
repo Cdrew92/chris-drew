@@ -36,6 +36,10 @@
     font-family: "lato", sans-serif;
 }
 
+.opaque .mppw-login--username {
+    color: #434343;
+}
+
 .mppw-login--username.active {
     display: flex !important;
     align-items: center;
