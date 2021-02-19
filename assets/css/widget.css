@@ -194,3 +194,9 @@
     border-bottom-color: #caac36 !important;
     border-left-color: #caac36 !important;
 }
+
+/* My Groups Styling */
+
+.mppw-card--grid {
+    grid-template-columns: repeat(3, 340px) !important;
+}
