@@ -57,6 +57,7 @@
 }
 
 .mppw-login--dropdown {
+    box-shadow: none !important;
     display: flex;
     width: 210px;
     left: -15px;
