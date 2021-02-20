@@ -68,6 +68,10 @@
     border: none !important;
 }
 
+.opaque .mppw-login--dropdown {
+    background-color: #E5E5E5;
+}
+
 .login-label {
     text-decoration: none !important;
     text-transform: none !important;
@@ -202,6 +206,9 @@
     grid-template-columns: repeat(3, 340px) !important;
 }
 
+#myGroupsWrapper {
+    display: none;
+}
 .mpp-card {
     border-radius: 0px !important;
     box-shadow: none !important;
