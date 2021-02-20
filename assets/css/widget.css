@@ -201,6 +201,15 @@
     grid-template-columns: repeat(3, 340px) !important;
 }
 
+.mpp-card {
+    border-radius: none !important;
+    box-shadow: none !important;
+}
+
+.mpp-card--image {
+    height: 188px;
+}
+
 .mpp-card--body {
     padding: 30px 30px 14px 30px;
 }
