@@ -94,7 +94,7 @@
 } 
 
 .mppw-loggedout--label img{
-vertical-align: center !important;
+    vertical-align: baseline;
 }
 
 .mppw-login .mppw-login--list {
