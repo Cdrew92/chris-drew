@@ -91,7 +91,7 @@
 .mppw-loggedout--label {
     font-family: "lato", sans-serif;
     display: flex;
-    align-items: baseline;
+    vertical-align: baseline !important;
 } 
 .mppw-login .mppw-login--list {
     display: flex;
