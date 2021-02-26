@@ -72,13 +72,16 @@
 }
 
 .login-label {
+    color: #434343;
+    font-size: 13px !important;
+    font-weight: 400 !important;
     text-decoration: none !important;
     text-transform: none !important;
     cursor: default !important;
 }
 
 .login-label:hover {
-    color: #9b9b9b !important;
+    color: #434343 !important;
 }
 
 #securedMenuItems {
