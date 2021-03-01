@@ -22,10 +22,6 @@
     display: none;
 }
 
-.mppw-login--username {
-    display: none;
-    font-family: "lato", sans-serif;
-}
 .mppw-login--username.active {
     display: flex !important;
     align-items: center;
