@@ -76,7 +76,8 @@
 }
 
 .login-label {
-    color: #434343;
+    cursor: text !important;
+    color: #434343 !important;
     font-size: 13px !important;
     font-weight: 400 !important;
     text-decoration: none !important;
