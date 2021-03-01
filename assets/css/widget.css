@@ -24,6 +24,7 @@
 
 .mppw-login--username {
     display: flex;
+    font-family: "lato", sans-serif !important;
 }
 
 .mppw-login--username img{
