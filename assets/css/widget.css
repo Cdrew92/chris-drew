@@ -104,7 +104,7 @@
     display: flex;
 }
 
-.mppw-loggedout--label img{
+.mppw-loggedout--label img, svg{
     align-self: center;
 }
 
