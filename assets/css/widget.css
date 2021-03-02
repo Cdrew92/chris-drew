@@ -95,9 +95,14 @@
 }
 
 .mppw-loggedout--label {
+    display: none;
     font-family: "lato", sans-serif;
     display: flex;
 } 
+
+.mppw-loggedout--label .active {
+    display: flex;
+}
 
 .mppw-loggedout--label img{
     align-self: center;
