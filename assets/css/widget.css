@@ -4,7 +4,7 @@
     line-height: 60px !important;
     color: #fff;
     display: inline-block;
-    font-family: "lato", sans-serif;
+    font-family: "lato", sans-serif !important;
     font-size: 13px;
     font-weight: 700;
     padding: 0 20px;
@@ -23,7 +23,6 @@
 }
 
 .mppw-login--username {
-    display: flex;
     font-family: "lato", sans-serif !important;
 }
 
@@ -34,6 +33,10 @@
 .mppw-login--username.active {
     display: flex !important;
     align-items: center;
+}
+
+#user-greeting {
+    margin-right: 5px;
 }
 
 #widget-container {
